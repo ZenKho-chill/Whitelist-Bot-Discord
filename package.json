@@ -1,5 +1,5 @@
 {
-  "name": "Discord Whitelist Bot",
+  "name": "Whitelist Bot Discord",
   "version": "1.0.0",
   "description": "Bot hỗ trợ hệ thống đăng ký Whitelist tự động cho máy chủ Discord GTA Roleplay, với tính năng xử lý đơn, xác nhận, từ chối và gán role hoàn toàn tự động.",
   "main": "index.js",

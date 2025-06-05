@@ -26,7 +26,16 @@ npm install
 
 ### 3. Cấu hình file `config/config.js`
 
-## 🧪 Sử dụng
+## 🧪 Khởi chạy bot
+Chạy bằng Node.js:
+```sh
+node index.js
+```
+Chạy bằng Docker:
+```sh
+docker build -t discord-whitelist-bot .
+docker run discord-whitelist-bot
+```
 
 ### Gửi Modal cho người dùng
 - Slash command `/setup whitelist`
