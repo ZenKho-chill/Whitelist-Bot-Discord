@@ -1,0 +1,23 @@
+{
+  "name": "Discord Whitelist Bot",
+  "version": "1.0.0",
+  "description": "Bot hỗ trợ hệ thống đăng ký Whitelist tự động cho máy chủ Discord GTA Roleplay, với tính năng xử lý đơn, xác nhận, từ chối và gán role hoàn toàn tự động.",
+  "main": "index.js",
+  "author": "ZenKho",
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZenKho-chill/Whitelist-Bot-Discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZenKho-chill/Whitelist-Bot-Discord/issues"
+  },
+  "homepage": "https://github.com/ZenKho-chill/Whitelist-Bot-Discord#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "colors": "^1.4.0",
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7",
+    "pm2": "^5.4.3"
+  }
+}
