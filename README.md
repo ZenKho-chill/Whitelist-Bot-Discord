@@ -34,7 +34,7 @@ node index.js
 Chạy bằng Docker:
 ```sh
 docker build -t discord-whitelist-bot .
-docker run discord-whitelist-bot
+docker run -d --name discord-whitelist-bot discord-whitelist-bot
 ```
 
 ### Gửi Modal cho người dùng
