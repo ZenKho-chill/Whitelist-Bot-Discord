@@ -1,18 +1,17 @@
 /*
- * This file is part of Discord Whitelist Bot.
+ * Tệp này là một phần của Whitelist Bot Discord.
  *
- * Discord Whitelist Bot is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ * Whitelist Bot Discord là phần mềm miễn phí: bạn có thể phân phối lại hoặc sửa đổi
+ * theo các điều khoản của Giấy phép Công cộng GNU được công bố bởi
+ * Tổ chức Phần mềm Tự do, phiên bản 3 hoặc (nếu bạn muốn) bất kỳ phiên bản nào sau đó.
  *
- * Discord Whitelist Bot is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
+ * Whitelist Bot Discord được phân phối với hy vọng rằng nó sẽ hữu ích,
+ * nhưng KHÔNG CÓ BẢO HÀNH; thậm chí không bao gồm cả bảo đảm
+ * VỀ TÍNH THƯƠNG MẠI hoặc PHÙ HỢP CHO MỘT MỤC ĐÍCH CỤ THỂ. Xem
+ * Giấy phép Công cộng GNU để biết thêm chi tiết.
  *
- * You should have received a copy of the GNU General Public License
- * along with Discord Whitelist Bot.  If not, see <https://www.gnu.org/licenses/>.
+ * Bạn sẽ nhận được một bản sao của Giấy phép Công cộng GNU cùng với Whitelist Bot Discord.
+ * Nếu không, hãy xem <https://www.gnu.org/licenses/>.
  */
 
 const { ActionRowBuilder, TextInputBuilder,ModalBuilder } = require("discord.js");
