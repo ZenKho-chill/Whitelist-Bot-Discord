@@ -55,7 +55,7 @@ module.exports = {
                 },
             ])
             .setTimestamp()
-            .setFooter({ text: `${interaction.user.id}`, iconURL: interaction.user.displayAvatarURL({ dynamic: true }) });
+            .setFooter({ text: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL({ dynamic: true }) });
 
         const accept_add_roles = config.whitelist.roles.add.accepted;
         const accept_remove_roles = config.whitelist.roles.remove.accepted;

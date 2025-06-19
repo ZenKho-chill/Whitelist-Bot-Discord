@@ -34,7 +34,7 @@ module.exports = {
       .setColor("#FF0000")
       .setTimestamp()
       .setFooter({
-        text: interaction.user.id,
+        text: interaction.user.username,
         iconURL: interaction.user.avatarURL(),
       });
 

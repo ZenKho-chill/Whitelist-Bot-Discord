@@ -36,7 +36,7 @@ const whitelistSetup = async (interaction, options) => {
         .setImage(anh ? anh.url : null)
         .setFooter({ 
             iconURL: 'https://cdn.discordapp.com/attachments/1378363930573017140/1380045187580956682/logo.png?ex=684272bc&is=6841213c&hm=b16ed6ab57d2da77f1d4d602f7201849779a1da895a9160e4f9c3adafad6bb02&',
-            text: 'COPYRIGHT © ${new Date().getFullYear()} ZenKho'
+            text: `COPYRIGHT © ${new Date().getFullYear()} ZenKho`
         });
 
     const button = new ButtonBuilder()

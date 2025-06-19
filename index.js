@@ -39,24 +39,25 @@ const client = new Client({
 client.commands = new Collection();
 
 // Load lệnh
-const commandsPath = path.join(__dirname, "commands/setup.js");
-if (!fs.existsSync(commandsPath))
-  fs.mkdirSync(commandsPath, { recursive: true });
-const commandFiles = fs
-  .readdirSync(commandsPath)
-  .filter((file) => file.endsWith(".js"));
-for (const file of commandFiles) {
-  const filePath = path.join(commandsPath, file);
-  const command = require(filePath);
-  if (command.command === false) continue;
-  if (command.data && command.execute) {
-    client.commands.set(command.data.name, command);
-  } else {
-    console.error(
-      `Lệnh ở file ${filePath} thiếu thuộc tính 'data' hoặc 'execute'.`.red
-    );
-  }
+const filePath = path.join(__dirname, "commands", "setup.js");
+
+if (!fs.existsSync(filePath)) {
+  console.error("File setup.js không tồn tại.");
+  process.exit(1);
 }
+
+const command = require(filePath);
+
+if (command.command === false) {
+  console.log("Lệnh setup bị vô hiệu hóa.");
+} else if (command.data && command.execute) {
+  client.commands.set(command.data.name, command);
+} else {
+  console.error(
+    `Lệnh ở file ${filePath} thiếu thuộc tính 'data' hoặc 'execute'.`.red
+  );
+}
+
 
 // Load sự kiện
 const eventsPath = path.join(__dirname, "events");
