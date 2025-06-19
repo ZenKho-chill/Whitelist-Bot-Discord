@@ -16,7 +16,7 @@ Bot hỗ trợ hệ thống đăng ký **Whitelist tự động** cho máy chủ
 ### 1. Clone project
 ```sh
 git clone https://github.com/your-repo/discord-whitelist-bot.git
-cd discord-whitelist-bot
+cd Whitelist-Bot-Discord
 ```
 
 ### 2. Cài đặt package
